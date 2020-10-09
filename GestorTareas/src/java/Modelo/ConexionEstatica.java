@@ -239,7 +239,7 @@ public class ConexionEstatica {
      * @param persona
      * @return
      */
-    public static boolean editarUsuario(Usuario persona) {
+    public static boolean actualizarUsuario(Usuario persona) {
         boolean hecho = false;
         boolean estabaAbierta = true;
         if(Conex==null){
