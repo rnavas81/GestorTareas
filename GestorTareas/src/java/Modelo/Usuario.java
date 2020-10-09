@@ -95,5 +95,12 @@ public class Usuario {
         this.password = password;
     }
     
+    ///FUNCIONES AUXILIARES
+    public void actualizarBD(){
+        ConexionEstatica.actualizarUsuario(this);
+    }
+    public void agregarBD(){
+        ConexionEstatica.agregarUsuario(this);
+    }
     
 }
